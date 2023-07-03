@@ -28,8 +28,9 @@ span {
   text-align: start;
   /* margin: 20px 100px; */
   width: 500px;
-  display: none;
-  color: red;
+  display: none; 
+  /* display: block;  */
+  color: red; 
 }
 
 .checked {

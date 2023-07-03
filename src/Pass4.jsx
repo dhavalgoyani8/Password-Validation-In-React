@@ -48,8 +48,8 @@ function Pass4() {
       <h1>The Password Game</h1>
 
       <div className="inputField">
-      <input type="text" value={pass} onChange={(e) => handleInput(e)} />
-      <span>{pass.length > 0 ? pass.length : ""}</span>
+        <input type="text" value={pass} onChange={(e) => handleInput(e)} />
+        <span>{pass.length > 0 ? pass.length : ""}</span>
       </div>
 
       <div className="box">
@@ -73,7 +73,6 @@ function Pass4() {
           <h2>Your password must include a special character.</h2>
         </div>
       </div>
-
     </div>
   );
 }
