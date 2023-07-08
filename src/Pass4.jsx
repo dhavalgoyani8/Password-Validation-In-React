@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./pass4.css";
+import { Button, Input } from "antd";
 
 function Pass4() {
   const [pass, setPass] = useState("");
@@ -46,10 +48,9 @@ function Pass4() {
   return (
     <div className="App">
       <h1>The Password Game</h1>
-
       <div className="inputField">
-        <input type="text" value={pass} onChange={(e) => handleInput(e)} />
-        <span>{pass.length > 0 ? pass.length : ""}</span>
+        <input className="inputPassword" type="text" value={pass} onChange={(e) => handleInput(e)} />
+        <span className="passLength">{pass.length > 0 ? pass.length : ""}</span>
       </div>
 
       <div className="box">

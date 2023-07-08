@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.children{
+    background-color: #fff;
+    font-size: 40px;
+    margin: 20px;
+    cursor: pointer;
+    width: 500px;
+    border: 1px solid violet;
+    border-radius: 10px;
+    box-shadow: -5px -10px -15px violet;
+}
+.child {
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:ghostwhite;
+    box-shadow:  5px 10px 15px violet;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid snow;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+.header{
+    height: 40px;
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.parentName{
+    position: absolute;
+    left: 120px;
+}

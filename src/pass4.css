@@ -1,0 +1,38 @@
+body {
+  background-color: #fffae9 !important;
+}
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.inputPassword {
+  text-align: start;
+  font-size: 34px;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.passLength {
+  font-size: xx-large;
+  padding: 15px;
+}
+
+.massage-box {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  text-align: start;
+  /* margin: 20px 100px; */
+  width: 500px;
+  display: none;
+  /* display: block;  */
+  color: red;
+}
+
+.checked {
+  color: green;
+}
